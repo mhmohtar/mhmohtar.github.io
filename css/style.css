@@ -11,13 +11,10 @@
   font-family: "Poppins", sans-serif;
 }
 .navbar .porto {
-  font-family: var(--fontText4);
+  /* font-family: var(--fontText4); */
   font-weight: bold;
 }
-nav ul li a {
-  font-family: var(--fontText2);
-  font-weight: bold;
-}
+
 section {
   padding-top: 5rem;
 }
@@ -33,9 +30,9 @@ section {
 .home button {
   font-family: var(--fontText3);
 }
-/* .wr-navbar {
-  background-color: var(--bgColor);
-} */
+.wr-navbar {
+  background-color: #2dbcfc;
+}
 .project {
   background-color: var(--bgSection);
 }
