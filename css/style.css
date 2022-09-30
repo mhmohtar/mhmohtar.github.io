@@ -7,11 +7,8 @@
   --fontText3: "Open Sans", sans-serif;
   --fontText4: "Source Sans Pro", sans-serif;
 }
-* {
-  font-family: "Poppins", sans-serif;
-}
+
 .navbar .porto {
-  /* font-family: var(--fontText4); */
   font-weight: bold;
 }
 
@@ -19,13 +16,15 @@ section {
   padding-top: 5rem;
 }
 .home {
-  background-color: var(--bgSection);
+  /* background-color: var(--bgSection); */
   padding-top: 10rem;
-  /* padding-bottom: 4rem; */
   margin-bottom: 1rem;
 }
-.home span {
-  font-family: var(--fontText3);
+.home .btn-tombol {
+  background-color: #2dbcfc;
+}
+.home h1 .text-name {
+  color: #2dbcfc;
 }
 .home button {
   font-family: var(--fontText3);
