@@ -26,6 +26,9 @@ section {
 .home h1 .text-name {
   color: #2dbcfc;
 }
+.home p {
+  text-align: justify;
+}
 .home button {
   font-family: var(--fontText3);
 }
@@ -137,6 +140,9 @@ footer span i {
   }
   .home h1 {
     text-align: center;
+  }
+  .home .images {
+    margin-top: 5rem;
   }
   .images .mh {
     height: 300px;
