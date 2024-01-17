@@ -33,6 +33,12 @@
     body{
       font-family: 'Poppins', sans-serif;
     }
+    .text-label {
+      color: black;
+    }
+    .mt-5 {
+      margin-top: 5px;
+    }
   </style>
 </head>
 
@@ -47,9 +53,9 @@
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>About</span></a></li>
+        <!-- <li><a href="#about" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>About</span></a></li>
         <li><a href="#skill" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
-        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Education & Experience</span></a></li>
+        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Education & Experience</span></a></li> -->
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Portfolio</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -68,7 +74,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -79,10 +85,11 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section> -->
+    <!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section id="skill" class="facts">
+    <!-- <section id="skill" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -169,15 +176,15 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section> -->
+    <!-- End Facts Section -->
 
     <!-- ======= Resume Section ======= -->
-    <section id="education" class="resume">
+    <!-- <section id="education" class="resume">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Education & Experience</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
         <div class="row">
@@ -224,7 +231,8 @@
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section> -->
+    <!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -232,51 +240,86 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Apa yang saya kerjakan ?</p>
+          <!-- <p>Apa yang saya kerjakan ?</p> -->
         </div>
 
         <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3 gs_reveal gs_reveal_fromLeft">
-            <div class="card mb-5 rounded-4">
-              <div class="img-hover-zoom">
-                <img src="img-project/project1.JPG" class="card-img-top rounded-top" alt="Another Image zoom-on-hover effect" />
+
+          <div class="col-sm-6 col-md-4 col-lg-4 gs_reveal gs_reveal_fromLeft">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img-project/movie1.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/movie2.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/movie1.JPG" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="card-body">
-                <p class="fst-italic">Website SMK PB + Bootstrap + CodeIgniter 4</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            <a class="text-label mt-5" href="https://sitemovie-with-api.netlify.app/">Film search website with api IMDb</a>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 gs_reveal gs_reveal_fromRight">
-            <div class="card mb-3 rounded-4">
-              <div class="img-hover-zoom">
-                <img src="img-project/project2.JPG" class="card-img-top rounded-top" alt="Another Image zoom-on-hover effect" />
+
+          <div class="col-sm-6 col-md-4 col-lg-4 gs_reveal gs_reveal_fromLeft">
+            <div id="carouselExample2" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img-project/nyungsep3.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/nyungsep1.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/nyungsep2.JPG" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="card-body">
-                <p class="fst-italic">Cashier app for cafe built with Codeigniter 4</p>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            <a class="text-label mt-5" href="https://nyungsep.com/">Branch-based cashier application ayam nyungsep</a>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 gs_reveal gs_reveal_fromLeft">
-            <div class="card mb-3 rounded-4">
-              <div class="img-hover-zoom">
-                <img src="img-project/project3.png" class="card-img-top rounded-top" alt="Another Image zoom-on-hover effect" />
+
+          <div class="col-sm-6 col-md-4 col-lg-4 gs_reveal gs_reveal_fromLeft">
+            <div id="carouselExample3" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img-project/alhoirot3.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/alhoirot2.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img-project/alhoirot1.JPG" class="d-block w-100" alt="...">
+                </div>
               </div>
-              <div class="card-body">
-                <p class="fst-italic">Shofa store reminder application for premium user customers</p>
-              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            <a class="text-label mt-5" href="https://sitemovie-with-api.netlify.app/">Alhoirot student payment system using Codeigniter 4</a>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 gs_reveal gs_reveal_fromRight">
-            <div class="card mb-3 rounded-4">
-              <div class="img-hover-zoom">
-                <img src="img-project/project4.JPG" class="card-img-top rounded-top" alt="Another Image zoom-on-hover effect" />
-              </div>
-              <div class="card-body">
-                <p class="fst-italic">Create webviews for portal news + Built With bootstrap 5</p>
-              </div>
-            </div>
-          </div>
+
         </div>
 
       </div>
