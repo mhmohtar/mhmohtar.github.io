@@ -1,0 +1,16 @@
+body{
+  font-family: "Arial";
+}
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+/* #project {
+  background-color: #e2edff;
+} */
+section {
+  padding-top: 5rem;
+}
+.text-navbar {
+  font-family: "Arial";
+}
