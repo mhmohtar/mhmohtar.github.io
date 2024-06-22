@@ -14,3 +14,13 @@ section {
 .text-navbar {
   font-family: "Arial";
 }
+#project .title {
+  font-size: 12px;
+  font-weight: 600;
+}
+#project .title-project {
+  font-size: 14px;
+}
+#project .detail {
+  font-size: 14px;
+}
