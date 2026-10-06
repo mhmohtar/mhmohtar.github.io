@@ -19,21 +19,21 @@
   <body id="home">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#home"><b class="text-navbar ms-lg-5 fs-3 fw-lighter">Portfolio</b></a>
+      <div class="container">
+        <a class="navbar-brand" href="#home"><b class="text-navbar fs-3">Mohtar</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto fs-5 fw-light fst-italic">
+          <ul class="navbar-nav ms-auto fs-6 fw-light">
             <li class="nav-item">
               <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#skill">Skills</a>
+              <a class="nav-link text-light" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#project">Project</a>
+              <a class="nav-link text-light" href="#skill">Skills</a>
             </li>
           </ul>
         </div>
@@ -41,21 +41,32 @@
     </nav>
     <!-- akhir navbar -->
     <!-- jumbotron -->
-    <section class="jumbotron text-center" id="home">
-      <img src="profile/profile.JPG"  alt="Foto Profile Portfolio" width="200" class="rounded-circle img-thumbnail mt-5">
-      <h2 class="display-4 fw-lighter mt-5">Moh Mohtar</h2>
-      <p class="lead fst-italic">Software Engineer | Web Developer</p>
-      <div class="d-flex flex-row justify-content-center">
-        <a href="https://github.com/mhmohtar/" aria-label="github">
-          <i class="fa-brands fa-github fs-3 text-dark"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/mhmohtar/" aria-label="linkedin">
-          <i class="fa-brands fa-linkedin px-3 fs-3 text-dark"></i>
-        </a>
+    <section class="jumbotron" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Portfolio Website</span>
+          <h1 class="display-4">Moh Mohtar</h1>
+          <p class="lead">Software Engineer dan Web Developer yang membangun aplikasi web responsif, rapi, dan mudah digunakan.</p>
+          <div class="hero-actions">
+            <a href="#project" class="btn btn-primary">Lihat Project</a>
+            <a href="#skill" class="btn btn-outline-dark">Skills</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/mhmohtar/" aria-label="github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mhmohtar/" aria-label="linkedin">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img src="profile/profile.JPG" alt="Foto Profile Portfolio" class="hero-photo">
+        </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffff"
+          fill="#ffffff"
           fill-opacity="1"
           d="M0,160L34.3,165.3C68.6,171,137,181,206,181.3C274.3,181,343,171,411,154.7C480,139,549,117,617,128C685.7,139,754,181,823,192C891.4,203,960,181,1029,176C1097.1,171,1166,181,1234,197.3C1302.9,213,1371,235,1406,245.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
@@ -82,11 +93,105 @@
     </section> -->
     <!-- Akhir About Us -->
 
+    <!-- Project -->
+    <section id="project" class="mb-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h3 class="section-title mb-5">Portfolio</h3>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/lb-trans.jpg" class="card-img-top" alt="Register Product BPOM & Halal">
+              <div class="card-body">
+                <p class="card-title title-project">Website travel package tour - LB Trans</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <div class="card-footer">
+                <a href="https://lbtranstour.com/id" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/assets/dashboard.png" class="card-img-top" alt="Register Product BPOM & Halal">
+              <div class="card-body">
+                <p class="card-title title-project">Register Product BPOM & Halal</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <div class="card-footer">
+                <a href="view/detail_bpom.html" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/project2.webp" class="card-img-top" alt="Branch-based cashier application ayam nyungsep">
+              <div class="card-body">
+                <p class="card-title title-project">Branch-based cashier application ayam nyungsep</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <div class="card-footer">
+                <a href="view/detail_nyupsep.html" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/project1.webp" class="card-img-top" alt="Alhoirot student payment system using PHP">
+              <div class="card-body">
+                <p class="card-title title-project" maxlength="10">Alhoirot student payment system using PHP</p>
+              </div>
+              <div class="card-footer">
+                <a href="view/detail_pembayaran.html" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/project3.webp" class="card-img-top" alt="Website for searching movie with RestAPI IMDb">
+              <div class="card-body">
+                <p class="card-title title-project">A Website for searching movie with RestAPI IMDb</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <div class="card-footer">
+                <a href="view/detail_film.html" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
+            <div class="card bg-light">
+              <img src="img-project/project4.webp" class="card-img-top" alt="Iuris Legal Consultant Landing Page Website">
+              <div class="card-body">
+                <p class="card-title title-project">Iuris Legal Consultant Landing Page Website</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+              <div class="card-footer">
+                <a href="view/detail_iuris.html" class="detail">Detail <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </div>
+      
+    </section>
+
     <!-- start skill -->
     <section class="skill" id="skill">
       <div class="container">
         <div class="row">
-          <h3 class="text-center">Skills</h3>
+          <h3 class="section-title text-center">Skills</h3>
         </div>
         <div class="row mt-5">
             <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 text-center">
@@ -141,100 +246,6 @@
       </div>
     </section>
     <!-- end  skill -->
-
-    <!-- Project -->
-    <section id="project" class="mb-5">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h3 class="mb-5">Portfolio</h3>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-            <div class="card bg-light">
-              <div class="card-body">
-                <h2 class="small title">SQL SERVER | XML | OPH</h2>
-                <p class="card-title title-project">Register Product BPOM & Halal</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-              <img src="img-project/assets/dashboard.png" class="card-img-bottom" alt="...">
-              <div class="card-footer">
-                <span class="bg-dark text-white rounded-3 px-3 py-1">
-                  <a href="view/detail_bpom.html" class="text-light text-decoration-none detail">Detail</a>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-            <div class="card bg-light">
-              <div class="card-body">
-                <h2 class="small title">Codeigniter4 | Javascript | Bootstrap </h2>
-                <p class="card-title title-project">Branch-based cashier application ayam nyungsep</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-              <img src="img-project/project2.webp" class="card-img-bottom" alt="...">
-              <div class="card-footer">
-                <span class="bg-dark text-light rounded-3 px-3 py-1">
-                  <a href="view/detail_nyupsep.html" class="text-light text-decoration-none detail">Detail</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-            <div class="card bg-light">
-              <div class="card-body">
-                <h2 class="small title">Codeigniter4 | Boostsrap | Javascript | PHP</h2>
-                <p class="card-title title-project" maxlength="10">Alhoirot student payment system using PHP</p>
-              </div>
-              <img src="img-project/project1.webp" class="card-img-bottom" alt="...">
-              <div class="card-footer">
-                <span class="bg-dark text-white rounded-3 px-3 py-1">
-                  <a href="view/detail_pembayaran.html" class="text-light text-decoration-none detail">Detail</a></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-            <div class="card bg-light">
-              <div class="card-body">
-                <h2 class="small title">Javascript | Bootstrap</h2>
-                <p class="card-title title-project">A Website for searching movie with RestAPI IMDb</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-              <img src="img-project/project3.webp" class="card-img-bottom" alt="...">
-              <div class="card-footer">
-                <span class="bg-dark text-white rounded-3 px-3 py-1">
-                  <a href="view/detail_film.html" class="text-light text-decoration-none detail">Detail</a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-3">
-            <div class="card bg-light">
-              <div class="card-body">
-                <h2 class="small title">HTML | CSS | Bootstrap</h2>
-                <p class="card-title title-project">Iuris Legal Consultant Landing Page Website</p>
-                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-              <img src="img-project/project4.webp" class="card-img-bottom" alt="...">
-              <div class="card-footer">
-                <span class="bg-dark text-white rounded-3 px-3 py-1">
-                  <a href="view/detail_iuris.html" class="text-light text-decoration-none detail">Detail</a>
-                </span>
-              </div>
-            </div>
-          </div>
-
-          
-          
-        </div>
-      </div>
-      
-    </section>
    
     <!-- footer -->
     <nav class="navbar navbar-light bg-light">
